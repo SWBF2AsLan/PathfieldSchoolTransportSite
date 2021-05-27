@@ -54,6 +54,8 @@ Should you wish to run the server in development mode, which will send extra deb
 
 Either of these commands can be used in a batch file for user convenience, provided the batch file is placed in or navigates to the installation directory.
 
+To gracefully close the server, hit `CTRL+C` in the console window it's running in and then enter `y`.
+
 ### Logging
 The web app's logs are stored in `./logs`.
 - `server.log` contains full logs from the web app, including all HTTP traffic and debugging.
