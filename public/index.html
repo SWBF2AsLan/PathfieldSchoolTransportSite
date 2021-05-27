@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="stylesheets/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+<h1 style="text-align:center;">
+  <table style="background-color:white; border-style:groove; float:left;">
+    <thead>
+      <tr style="font-size:0.2em; text-align:center;">
+        <th><img src="images/whitebus.jpg" width=150 height=70 style="display:block;">Not Arrived</img></th>
+        <th><img src="images/bluebus.jpg" width=150 height=70 style="display:block;">Loading/Unloading</img></th>
+        <th><img src="images/yellowbus.jpg" width=150 height=70 style="display:block;">Departed</img></th>
+      </tr>
+    </thead>
+  </table>
+  Transport Display
+  <table style="background-color:white; border-style:groove; float:right;">
+    <thead>
+      <tr>
+        <th><button id="navbtn" type="button" style="display:block;" onclick="document.location.href='/taxis'">TAXIS</button></th>
+	<th><button id="navbtn" type="button" style="display:block;" onclick="document.location.href='/buses'">BUSES</button></th>
+	<th><button id="navbtn" type="button" style="display:block;" onclick="document.location.href='/announcements'">ANNOUNCEMENTS</button></th>
+      </tr>
+    </thead>
+  </table>
+</h1>
+
+
+<table id="t01" style="float:left;width:60%;border-style:groove;border-collapse:collapse;">
+  <thead>
+    <tr>
+      <th style="text-align:center;" colspan="4">Buses</th>
+    </tr>
+  </thead>
+  <tbody id="t01body" style="text-align:left; font-size:0.8em;">
+    <tr>
+      <td><b>1</b><img id="bus01" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>2</b><img id="bus02" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>3</b><img id="bus03" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>4</b><img id="bus04" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+    </tr>
+    <tr>
+      <td><b>5</b><img id="bus05" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>6</b><img id="bus06" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>7</b><img id="bus07" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>8</b><img id="bus08" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+    </tr>
+    <tr>
+      <td><b>9</b><img id="bus09" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>10</b><img id="bus10" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>11</b><img id="bus11" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>12</b><img id="bus12" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+    </tr>
+    <tr>
+      <td><b>13</b><img id="bus13" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>14</b><img id="bus14" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>15</b><img id="bus15" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>16</b><img id="bus16" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+    </tr>
+    <tr>
+      <td><b>17</b><img id="bus17" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>18</b><img id="bus18" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>19</b><img id="bus19" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+      <td><b>20</b><img id="bus20" align="left" src="images/whitebus.jpg" width=225 height=100 style="display:inline;"></img></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div style="float:right;width:35%;">
+  <table id="t02" style="width:100%;border-style:groove;border-collapse:collapse;">
+    <thead>
+      <tr>
+        <th style="text-align:center;" colspan="2">Taxis</th>
+      </tr>
+    </thead>
+    <tbody id="t02body"></tbody>
+  </table>
+  <h2 style="display:block;">
+    Announcements
+    <textarea id="announce" readonly rows="15" style="width:100%;font-size:1em;font-weight:bold;resize:none;box-sizing:border-box;padding-left:10px;padding-right:10px;">
+      No announcements.
+    </textarea>
+  </h2>
+</div>
+
+<script type="text/javascript" src="javascripts/transportDisplayScript.js"></script> 
+
+</body>
+</html>

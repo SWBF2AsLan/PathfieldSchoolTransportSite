@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="stylesheets/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+<h1>
+  Name Editor
+  <table style="background-color:white; border-style:groove; float:right;">
+    <thead>
+      <tr>
+	<th><button id="navbtn" type="button" style="display:block;" onclick="document.location.href='/taxis'">TAXIS</button></th>
+	<th><button id="navbtn" type="button" style="display:block;" onclick="document.location.href='/'">HOME</button></th>
+      </tr>
+    </thead>
+  </table>
+</h1>
+
+<h2>
+  <label for="namelist" style="color:#a9aba2;text-align:left;font-size:1em;padding-top:1px;padding-bottom:10px;">Name Editor:</label>
+  <textarea id="namelist" name="namelist" rows="19" cols="50" wrap="soft" style="font-weight:bold;width:100%;box-sizing:border-box;font-size:1em;"></textarea>
+  <button id="namelistbutton" type="button" style="width:100%;margin-top:5px;font-size:1em;">Update Names</button>
+</h2>
+
+
+<script type="text/javascript" src="javascripts/nameEditorScript.js"></script> 
+
+
+</body>
+</html>

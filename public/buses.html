@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="stylesheets/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+<h1>
+  Bus Control
+  <table style="background-color:white; border-style:groove; float:right;">
+    <thead>
+      <tr height="88px">
+	<th><button id="navbtn" type="button" style="display:block;" onclick="document.location.href='/'">HOME</button></th>
+      </tr>
+    </thead>
+  </table>
+  <table style="background-color:white; border-style:groove; float:right;">
+    <thead>
+      <tr style="font-size:0.2em; text-align:center;">
+        <th><img src="images/whitebus.jpg" width=150 height=66 style="display:block;">Not Arrived</img></th>
+        <th><img src="images/bluebus.jpg" width=150 height=66 style="display:block;">Loading/Unloading</img></th>
+        <th><img src="images/yellowbus.jpg" width=150 height=66 style="display:block;">Departed</img></th>
+      </tr>
+    </thead>
+  </table>
+</h1>
+
+
+
+<table id="t01" style="float:left;width:100%;border-style:groove;border-collapse:collapse;">
+  <thead>
+    <tr>
+      <th style="text-align:center;" colspan="5">Tap on bus to change mode</th>
+    </tr>
+  </thead>
+  <tbody id="t01body" style="text-align:left; font-size:0.8em;">
+    <tr>
+      <td><b>1</b><img id="bus01" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>2</b><img id="bus02" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>3</b><img id="bus03" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>4</b><img id="bus04" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>5</b><img id="bus05" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+    </tr>
+    <tr>
+      <td><b>6</b><img id="bus06" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>7</b><img id="bus07" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>8</b><img id="bus08" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>9</b><img id="bus09" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>10</b><img id="bus10" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+    </tr>
+    <tr>
+      <td><b>11</b><img id="bus11" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>12</b><img id="bus12" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>13</b><img id="bus13" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>14</b><img id="bus14" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>15</b><img id="bus15" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+    </tr>
+    <tr>
+      <td><b>16</b><img id="bus16" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>17</b><img id="bus17" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>18</b><img id="bus18" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>19</b><img id="bus19" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+      <td><b>20</b><img id="bus20" align="left" src="images/whitebus.jpg" width=325 height=150 style="display:inline;cursor:pointer;"></img></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<script type="text/javascript" src="javascripts/busControlScript.js"></script> 
+
+
+</body>
+</html>

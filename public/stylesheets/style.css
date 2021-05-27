@@ -1,0 +1,107 @@
+body {
+  background-color: white;
+  fontsize: 100%;
+  font-family: Verdana;
+}
+
+h1 {
+  color: #a9aba2;
+  background-color: #40444c;
+  border-style: groove;
+  font-size: 2.5em;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 75px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #a9aba2;
+  background-color: #40444c;
+  border-style: groove;
+  font-size: 2em;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: black;
+  background-color: white;
+  border-style: groove;
+  font-size: 0.7em;
+  text-align: left;
+  margin-top: 5px;
+}
+
+table {
+  color: black;
+  text-align: left;
+  font-size: 2em;
+}
+
+table td, table th {
+  border: 1px solid white;
+  height: 40px;
+}
+
+table tr:first-child th {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child, table tr th:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child, table tr th:last-child {
+  border-right: 0;
+}
+
+.cell {
+  height: 40px;
+  text-align: center;
+}
+
+.cell:hover {
+  filter: brightness(70%);
+}
+
+#t01 th {
+  background-color: #40444c;
+  color: #a9aba2;
+}
+
+#t02 th {
+  background-color: #40444c;
+  color: #a9aba2;
+}
+
+
+#navbtn {
+  background-color: #40444c;
+  border: none;
+  color: #a9aba2;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+textarea {
+  display: block;
+}
+
+label {
+  display: block;
+}

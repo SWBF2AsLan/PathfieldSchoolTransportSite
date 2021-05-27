@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+<h1>
+  Taxi Control
+  <table style="background-color:white; border-style:groove; float:right;">
+    <thead>
+      <tr>
+        <th><button id="navbtn" type="button" style="display:block;" onclick="document.location.href='/names'">NAME EDITOR</button></th>
+	<th><button id="navbtn" type="button" style="display:block;" onclick="document.location.href='/'">HOME</button></th>
+      </tr>
+    </thead>
+  </table>
+</h1>
+
+<table id="t01" style="float:left;width:100%;border-style:groove;border-collapse:collapse;">
+  <thead>
+    <tr>
+      <th style="text-align:center;" colspan="6">Tap name to indicate ready for collection</th>
+    </tr>
+  </thead>
+  <tbody id="t01body"></tbody>
+</table>
+
+
+<script type="text/javascript" src="javascripts/taxiControlScript.js"></script> 
+
+</body>
+</html>
