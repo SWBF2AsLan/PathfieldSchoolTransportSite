@@ -14,7 +14,7 @@ Please ensure that the npm package manager is installed as part of the Node inst
 ### Setup
 Extract all files to a destination of your choosing. Open command line and navigate to this destination (this folder should contain app.js along with the rest of the extracted files and folder structures) and run the following command:
 
-`npm install`
+`npm ci`
 
 This will install all the dependencies needed to run the server.
 
