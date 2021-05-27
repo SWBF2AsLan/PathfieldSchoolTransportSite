@@ -1,5 +1,5 @@
 # PathfieldSchoolTransportSite
-A small, bespoke Node.js web server for the use of Pathfield School IT staff to facilitate pupil transport.
+A small, bespoke Node.js web server for the use of Pathfield School staff to facilitate pupil transport.
 
 ## Installation
 These instructions will guide you through setting up the Pathfield School Transport Site.
