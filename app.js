@@ -18,7 +18,7 @@ var announcementsRouter = require('./routes/announcements');
 //init app
 var app = express();
 
-//loggin stuff
+//logging stuff
 logger.stream = {
     write: function(message, encoding){
         logger.http(message);
@@ -65,6 +65,15 @@ app.use((req,res,next) => {
     res.status(404).send("PAGE NOT FOUND");
     logger.error(`400 || ${res.statusMessage} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
 })
+
+//Create files folder.
+var dir = './public/files';
+if (!fs.existsSync(dir)) {
+	fs.mkdirSync(dir);
+	logger.info('Public/files folder created.');
+} else {
+	logger.info('Public/files folder already exists.');
+}
 
 //Create bus file if it doesn't already exist.
 var busdata = "011/021/031/041/051/061/071/081/091/101/111/121/131/141/151/161/171/181/191/201";
